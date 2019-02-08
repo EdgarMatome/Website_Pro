@@ -1,0 +1,842 @@
+/* CSS Document */
+
+body{margin-bottom: 50px;
+
+
+}
+
+.container1{
+margin-bottom: 200px;
+}
+
+
+/*
+#brandNav a:hover{color:#0FF;}
+
+h4 {margin-left: 50px;
+    font-size: 80px;
+
+}
+h6{margin-left:20px;}
+
+/* post */
+.one-third{
+    width: 50%;
+    float: right;
+    margin-right: 180px;
+}
+
+/* responsive post */
+@media screen and (max-width: 768px){
+    .one-third{
+        width: 95%;
+        margin: 0;
+
+    }
+}
+/* Profile styling */
+.profile aside p {
+    font-size: 12px;
+}
+
+.profile {
+    margin-right: 40px;
+}
+
+.profile aside ul li{
+    float: left;
+    margin-right: 8px;
+}
+.profile ul{
+    list-style-type: none;
+    display: inline;
+    padding: 0px;
+}
+
+
+
+/*************************************************Posts Styling*********************************/
+.posts header h2{
+   margin-bottom: 0px;
+}
+
+.posts footer{
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.lead{
+    margin-bottom: 10px;
+}
+/*Comment section styling*/
+.comment-form{
+    margin-top: 20px;
+}
+h4 {
+    margin-bottom: 0px;
+}
+
+.comment-num{
+    font-size: 16px;
+    color: #ccc;
+}
+
+.fullname{ margin-top: 20px;
+}
+
+#comments{
+    margin-top: 50px;
+}
+
+#message{
+    height: 100px;
+}
+
+
+
+
+/******************************************************Log in page**************************************************/
+logForm{
+    height: 8000px;
+    width: 1500px;
+ }
+
+
+.containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 97vh;
+}
+
+.inners{
+    width: 30vw;
+    height: 70vh;
+    background-color: rgba(255,255,255,0.72);
+    border-radius: 10px;
+}
+
+.titles{
+    width: 30vw;
+    height: 30vh;
+    /*
+    display: flex;
+    align-items: center;
+
+    color: #ffffff;
+*/
+}
+
+.fields{
+    width: 30vw;
+    margin-bottom: 400px;
+    display: flex;
+
+
+    color: #ffffff;
+}
+
+
+.titles img{
+   /* margin-top: 80px;
+    padding-left: 17%;
+    font-size: 2em;*/
+    margin-left: 80px;
+    display: table-cell;
+    width: 60%;
+    height: 100%;
+    /*margin: auto;*/
+    border: 2px solid #726b6b;
+    border-radius: 100%;
+}
+
+.contents{
+    height: 37vh;
+    margin-top: -20px;
+    margin-left:  10px;
+    border-bottom 1px solid white;
+}
+#tt2s{
+    margin-bottom: 300px;
+}
+.txts{
+    background-color: #fffefe;
+    margin-top: 20%;
+    margin-left: 8%;
+    width: 25vw;
+}
+
+.txt1s{
+    background-color: #fffefe;
+    margin-top:5%;
+    /*margin-bottom: 5px;*/
+    margin-left: 8%;
+    width: 25vw;
+}
+
+.txt1s span{
+    padding-right: 2%;
+    padding-left: 2%
+}
+
+.glyphicon{
+    color: #b2b2b2;
+    font-size: 18px;
+}
+
+.content2s{
+    margin-left: 10px;
+    margin-top: -50px;
+    margin-bottom: 15px;
+}
+
+.contents input{
+    width: 22vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 0;
+}
+
+.contents input[placeholder]{
+    font-size: 1.3em;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #000000;
+}
+
+.content2s input{
+    width: 11vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 8%;
+    margin-top: 5%;
+    border: 0;
+}
+
+.content2s input[placeholder]{
+    font-size: 1.3em;
+    padding-left: 3%;
+    padding-right: 5%;
+    color: #0f0f0f;
+}
+
+.radioss{
+    background-color: rgba(255,255,255,255);
+
+
+}
+
+.radioss h4{
+    display: inline-block;
+    margin-right: 10px;
+    padding-left: -1%;
+    padding-right: 4%;
+    color: #868585;
+}
+
+.radioss label{
+    font-size: 1.2em;
+    color: #8e8a8a;
+}
+
+#reds input{
+    margin-right: 2%;
+    padding-left: 30px;
+}
+
+
+
+.radioss input{
+    padding-right: 50%;
+    margin-left: 50px;
+    /*margin-right: 2%;
+    /*margin-bottom: 50px;*/
+}
+
+.chboxs{
+    height: 8vh;
+    margin-left: 45px;
+    margin-top:20px;
+
+}
+
+.chboxs input{
+    margin-left: 15%;
+}
+
+.chboxs span{
+    font-size: 1.1em;
+    margin-left: 3%;
+}
+
+#spans{
+    margin-left: 3vw;
+    color: red;
+    font-size: 1,2em;
+}
+
+.btnsubs{
+    border-top: 1px solid white;
+    text-align: right;
+}
+
+.btnsubs input{
+    width: 100%;
+    padding: 2% 6% 2% 6%;
+    margin-top: 5px;
+    background-color: #1ab394;
+    border: 0;
+    color: black;
+}
+
+.btnsubs input:hover{
+    background-color: #44ff44;
+}
+
+#alls{
+    margin-top: -450px;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .inners{
+        width: 100%;
+        /*margin: 0;*/
+
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    txtls{
+        background-color: #fffefe;
+
+        margin-top:5%;
+        /*margin-bottom: 5px;*/
+        margin-left: 8%;
+        width: 25vw;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+     .txts input{ width: 240px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .txt1s input{ width: 240px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .txt1s span{ padding-right: 20%;
+                padding-left: 90%;
+
+
+
+    }
+}
+
+@media screen and (max-width: 768px){
+    .containers{
+        width: 100%;
+        margin: 0;
+
+
+    }
+}
+
+@media screen and (max-width: 768px){
+    .titles img {
+        width: 180px;
+        height: 180px;
+
+
+
+    }
+}
+
+
+
+
+
+
+/****************************************************new register *******************************************************
+.shape{
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    margin-top: 50px;
+    left: 35%;
+    background-color:black;
+    opacity:.8;
+    width:400px;
+    border:1px solid white;
+    Height:500px;
+
+
+    float:left;
+    color:white;
+    font-size:18px;
+
+    list-style-type:none ;
+}
+
+.glyphicon{
+    color: #b2b2b2;
+    font-size: 18px;
+}
+
+
+.txt{
+    background-color: #fffefe;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 25vw;
+}
+.txt span{
+    margin-right: -8%;
+    margin-left: -8%
+}
+
+.txt1{
+    background-color: #fffefe;
+    margin-top: 1%;
+    margin-bottom: 6px;
+    margin-left: 1%;
+    width: 0px;
+    border-bottom: 1px solid white;
+}
+
+.content{
+    border-bottom: 1px solid white;
+    height: 5vh;
+    margin-top 250px;
+   /* margin-left:  -170px;
+}
+
+.txt1 span{
+    margin-right: -8%;
+    margin-left: -8%;
+
+}
+
+.txt1 glyphicon{
+
+}
+
+
+
+
+
+
+
+/***********************************************************************************************************/
+
+.colm-11  {
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    margin-top: 50px;
+    left: 35%;
+    background-color:black;
+    opacity:.8;
+    width:300px;
+    border:1px solid white;
+    Height:500px;
+
+
+    float:left;
+    color:white;
+    font-size:18px;
+
+    list-style-type:none ;
+}
+.col-sm-4{
+    height: 600px;
+    margin-left: 35%;
+    margin-top: 50px;
+    color: #fff;
+    opacity: .8;
+
+}
+
+.col-sm-4 h2 {
+    text-align: center;
+    font-weight: bold;
+}
+.col-sm-4 a {
+    color: #fff;
+
+}
+.col-sm-4 img{
+    margin-left: 150px;
+
+}
+
+.col-sm-4 input,
+.col-sm-4 input
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    margin-left: 40px;
+}
+.col-sm-4 p{
+    margin-left: 60px;
+}
+.col-sm-4 button {
+    width: 80%;
+    font-size: 16px;
+    background: seagreen;
+    color: #fff;
+}
+
+.register{
+    width: 800px;
+    width: 80%;
+    font-size: 16px;
+    background: seagreen;
+    color: #fff;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .col-sm-4 button{
+        width: 100%;
+        margin: 0;
+
+
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .col-sm-4 input{
+        width: 100%;
+        margin: 0;
+
+    }
+}
+
+@media screen and (max-width: 768px){
+    .col-sm-4{
+        width: 90%;
+        margin: 0;
+        margin-left: 15px;
+
+    }
+}
+
+@media screen and (max-width: 768px){
+    .col-sm-4 img {
+        width: 100%;
+        margin: 0;
+
+    }
+}
+
+#user{
+    margin-left: 30px;
+
+}
+.loginBox #user{
+    margin-bottom: 70px;
+}
+#gallery{
+    margin-top: 50px;
+}
+
+/******************************************************reg 2*********************************************************************/
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 97vh;
+}
+
+.inner{
+    width: 30vw;
+    height: 80vh;
+    background-color: rgba(255,255,255,0.72);
+    border-radius: 10px;
+}
+
+.title{
+    width: 30vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(6,234,41,0.38);
+    color: #ffffff;
+
+}
+
+
+.title h3{
+    padding-left: 8%;
+    font-size: 2em;
+}
+
+.content{
+    height: 37vh;
+    margin-top: 250px;
+    margin-left:  -170px;
+    border-bottom 1px solid white;
+}
+#tt2{
+    margin-bottom: 300px;
+}
+.txt{
+    background-color: #fffefe;
+    margin-top: 20%;
+    margin-left: 8%;
+    width: 25vw;
+}
+
+.txt1{
+    background-color: #fffefe;
+    margin-top:5%;
+    /*margin-bottom: 5px;*/
+    margin-left: 8%;
+    width: 25vw;
+}
+
+.txt1 span{
+    padding-right: 2%;
+    padding-left: 2%
+}
+
+.glyphicon{
+    color: #b2b2b2;
+    font-size: 18px;
+}
+
+.content2{
+    margin-left: 10px;
+    margin-top: -50px;
+    margin-bottom: 15px;
+}
+
+.content input{
+    width: 22vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 0;
+}
+
+.content input[placeholder]{
+    font-size: 1.3em;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #000000;
+}
+
+.content2 input{
+    width: 11vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 8%;
+    margin-top: 5%;
+    border: 0;
+}
+
+.content2 input[placeholder]{
+    font-size: 1.3em;
+    padding-left: 3%;
+    padding-right: 5%;
+    color: #0f0f0f;
+}
+
+.radios{
+    background-color: rgba(255,255,255,255);
+
+
+}
+
+.radios h4{
+   display: inline-block;
+    margin-right: 10px;
+   padding-left: -1%;
+  padding-right: 4%;
+    color: #868585;
+}
+
+.radios label{
+    font-size: 1.2em;
+    color: #8e8a8a;
+}
+
+#red input{
+    margin-right: 2%;
+    padding-left: 30px;
+}
+
+
+
+.radios input{
+    padding-right: 50%;
+    margin-left: 50px;
+    /*margin-right: 2%;
+    /*margin-bottom: 50px;*/
+}
+
+.chbox{
+    height: 8vh;
+    margin-left: 45px;
+    margin-top:20px;
+
+}
+
+.chbox input{
+    margin-left: 15%;
+}
+
+.chbox span{
+    font-size: 1.1em;
+    margin-left: 3%;
+}
+
+#span{
+    margin-left: 3vw;
+    color: red;
+    font-size: 1,2em;
+}
+
+.btnsub{
+    border-top: 1px solid white;
+    text-align: right;
+}
+
+.btnsub input{
+    margin-right: 10%;
+    padding: 2% 6% 2% 6%;
+    margin-top: 3%;
+    background-color: rgba(206, 217, 255);
+    border: 0;
+    color: black;
+}
+
+.btnsub input:hover{
+    background-color: #44ff44;
+}
+
+#all{
+    margin-top: 220px;
+}
+***/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************************************Admin Section*******************************************************
+
+.admin{background-color: #f3f3f4;
+
+}
+
+#side-menu{
+    background-color: #2f4050;
+    padding:0px;
+    height:700px;
+
+
+}
+
+.box{
+    border: 1px red dotted;
+}
+
+#side-menu h1{
+    color: #1f3647;
+    text-align: center;
+    margin: 10px 0px;
+    font-size:25px;
+    width:200px;
+
+
+}
+
+#display-table{
+    display: table;
+    padding: 0px;
+
+
+}
+
+.display-table-row{
+    display: table-row;
+
+}
+
+.display-table-cell{
+    display: table-cell;
+    float: none;
+
+}
+
+.valign-top{
+    vertical-align: top;
+}
+
+#high{height: 700px}
+
+#nav-header{
+    background-color: #fff;
+    border-bottom: 1px solid #e7eaec;
+
+}
+
+.nav-white{
+
+}
+
+*/
